@@ -16,5 +16,20 @@
         target="_blank">Linked In</a
       >
     </li>
+    <li>
+      <a
+        href="https://x.com/0xScrpn"
+        class="rounded-full hover:underline me-4 md:me-6 text-blue-400"
+        target="_blank">Twitter</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://github.com/nilay8008"
+        class="rounded-full hover:underline me-4 md:me-6 text-blue-400"
+        target="_blank">GitHub</a
+      >
+    </li>
+  
   </ul>
 </footer>

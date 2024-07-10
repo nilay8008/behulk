@@ -49,7 +49,7 @@ async function seed() {
       `,
     client.sql`
           INSERT INTO names (name, email, image)
-          VALUES ('Vivek', 'vivek@gmail.com')
+          VALUES ('Nilay', 'Nilay@gmail.com')
           ON CONFLICT (email) DO NOTHING;
       `,
   ])

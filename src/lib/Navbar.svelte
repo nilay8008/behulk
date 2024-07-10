@@ -79,27 +79,11 @@
           >
         </li>
       </ul>
-    </div>
-    <a
-      href="https://x.com/0xScrpn"
-      target="_blank"
-    >
-      <div
-        class="mine w-15 h-15 bg-blue-500 hover:bg-blue-500"
-      ></div></a
-    >
+  
   </div>
 </nav>
 
 <style>
-  .mine {
-    background-image: url(../../static/codecanyon.png);
-    background-size: 80%;
-    background-position: center;
-  }
-  .mine:hover {
-    scale: 0.9;
-    transition: all 0.4s;
-    transition-timing-function: ease;
-  }
+  
+  
 </style>

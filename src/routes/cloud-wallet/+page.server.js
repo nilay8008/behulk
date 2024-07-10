@@ -40,7 +40,7 @@ export const actions = {
             outputs: [{
 
                 address: data.get('paymail'),
-                note: 'Nemo 3d',
+                note: 'oxscrpn',
                 amount: Number(data.get('amount'))
             }]
         }

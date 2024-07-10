@@ -55,7 +55,7 @@
           </div> -->
       <button
         type="submit"
-        class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
+        class="bg-pink-400 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
       >
         Create Applicant
       </button>

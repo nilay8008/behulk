@@ -31,7 +31,8 @@
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             for="grid-city"
           >
-            Enter the number whose square root is on bounty
+            Enter the number 
+            whose square root is on bounty
           </label>
           <input
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -82,7 +83,7 @@
   </div> -->
         <button
           type="submit"
-          class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
+          class="bg-pink-400 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
           on:click={() => {
             last = 0;
           }}
@@ -165,7 +166,7 @@ response to a form submission. it will vanish if the user reloads -->
         </div>
         <button
           type="submit"
-          class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
+          class="bg-pink-400 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded"
           on:click={() => {
             last = 1;
           }}
