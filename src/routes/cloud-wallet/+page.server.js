@@ -1,3 +1,4 @@
+// @ts-ignore
 import NeucronSdk from 'neucron-sdk'
 
 /** @type {import('./$types').Actions} */
