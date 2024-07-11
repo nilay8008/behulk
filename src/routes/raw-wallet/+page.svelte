@@ -28,14 +28,14 @@
   <h1 class="text-black font-extrabold text-4xl mt-4">Raw Wallet</h1>
   <button
     on:click={createWallet}
-    class="bg-pink-400 rounded px-3 py-2 mx-auto hover:bg-white hover:text-black"
+    class="bg-violet-400 rounded px-3 py-2 mx-auto hover:bg-white hover:text-black"
     >Create Wallet</button
   >
   {#if walletCreated}
-    <p>Wallet Pvt Key is 😶‍🌫️ 😶‍🌫️ 😶‍🌫️ 😶‍🌫️ 😶‍🌫️ 😶‍🌫️ 😶‍🌫️ {WIF}</p>
-    <p>Your BTC Address is 👉 👉 👉 👉 👉 👉 👉 {address}</p>
+    <p>Your Wallet Private Key is HERE  {WIF}</p>
+    <p>Your Bitcoin Address is HERE {address}</p>
   {/if}
   {#if showDetails}
-    <p>Wohooo!!!🤩🥳🥳 Wallet Created</p>
+    <p>Congratulations... Your Wallet Is Created...</p>
   {/if}
 </div>

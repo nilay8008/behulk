@@ -1,4 +1,4 @@
-<nav class="bg-white border-gray-200">
+<nav class="bg-sky-300 border-gray-200">
   <div
     class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
   >
@@ -8,8 +8,8 @@
         class="h-8"
         alt="TSoC Logo"
       />
-      <span class="self-center text-2xl font-semibold whitespace-nowrap hidden w-full md:block md:w-auto bg-blue-400 p-2 px-5 rounded-full bg-opacity-50"
-        >TSoC Fullstack App by Nilay Patel  </span
+      <span class="self-center text-2xl font-semibold whitespace-nowrap hidden w-full md:block md:w-auto brightness-75 md:text-red-800 p-2 px-5 bg-opacity-50"
+        >TSoC'24 Fullstack Application</span
       >
     </a>
     <button
@@ -37,44 +37,44 @@
       </svg>
     </button>
     <div
-      class="hidden w-full md:block md:w-auto bg-blue-400 p-3 px-5 rounded-full bg-opacity-50"
+      class="hidden w-full md:block md:w-auto  p-3 px-5 bg-opacity-50"
       id="navbar-default"
     >
       <ul
-        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-blue-400 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+        class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
       >
         <li>
           <a
             href="/"
-            class="block py-2 px-3 text-grey-400 rounded md:bg-transparent md:text-blue-700 md:p-0"
+            class="block py-2 px-3 text-grey-400 rounded md:bg-transparent md:text-red-800 md:hover:text-blue-700 md:p-0"
             aria-current="page">Home</a
           >
         </li>
         <li>
           <a
             href="/profiles"
-            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-red-800 md:hover:text-blue-700 md:p-0"
             >Profiles</a
           >
         </li>
         <li>
           <a
             href="/raw-wallet"
-            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-red-800 md:hover:text-blue-700 md:p-0"
             >Raw Wallet</a
           >
         </li>
         <li>
           <a
             href="/cloud-wallet"
-            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-red-800 md:hover:text-blue-700 md:p-0"
             >Cloud Wallet</a
           >
         </li>
         <li>
           <a
             href="/bounty"
-            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+            class="block py-2 px-3 text-grey-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-red-800 md:hover:text-blue-700 md:p-0"
             >Bounty</a
           >
         </li>
